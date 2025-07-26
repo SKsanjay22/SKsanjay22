@@ -1,0 +1,41 @@
+let details={
+    name:"js",
+    totalnmark:100,
+    subject:{
+        dbms:100,
+        java:100,
+    },
+    sum:function(){
+        let sum=this.subject.dbms+this.subject.java;
+        return total;
+    }
+}
+console.log(details.name);
+console.log(details["totalmark"]);
+console.log(details.subject.dbms);
+console.log(details.subject["java"]);
+let person={
+    job:"softwareTester",
+    salary:25000
+}
+//const {firstkey,secondkey}=person
+//console.log(firstkey+""+secondkey);
+//let arr=new Array(1,2,"three");
+console.log(arr[2]);
+let arr2=["js",true,false];
+//array destructuring
+const[name,b1,b2]=arr2;
+console.log(name)
+//filter-returns a new array containing only the
+//elements that match a condition.
+let student=[
+    {name:"rohit",grade:"A"},
+    {name:"vijay",grade:"B"},
+    {name:"sanjay",grade:"A"}
+]
+//let gradestudents=students.filter(student =>student.grade==="A")
+//console.log(gradestudents);
+//slice
+let data=[1,2,3,4,5];
+let result=data.slice(1,2);
+console.log(result);
